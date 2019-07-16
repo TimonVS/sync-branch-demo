@@ -1,5 +1,7 @@
 #!/bin/sh
 
+TARGET_BRANCH=$1
+
 curl \
   -X PATCH \
   -H "Authorization: token $GITHUB_TOKEN" \
