@@ -1,6 +1,6 @@
 [build]
   publish = "build"
-  command = "yarn build"
+  command = "npm build"
 
 [context."shop-staging"]
-  command = "REACT_APP_SHOPIFY_INTEGRATION_ENABLED=true yarn build"
+  command = "REACT_APP_SHOPIFY_INTEGRATION_ENABLED=true npm build"
